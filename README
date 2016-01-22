@@ -12,5 +12,8 @@ ecryptfs.txt
 links.txt
   eCryptfs related links
 
+packages.txt
+  eCryptfs related packages
+
 syntax
   Syntax for eCryptfs
