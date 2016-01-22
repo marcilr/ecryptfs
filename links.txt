@@ -11,3 +11,5 @@ Links
 eCryptfs - The enterprise cryptographic filesystem for Linux
 http://ecryptfs.org/
 
+How to Encrypt Directories/Partitions with eCryptfs on Debian 8 (Jessie)
+https://www.howtoforge.com/tutorial/how-to-encrypt-directories-and-partitions-with-ecryptfs-on-debian/
