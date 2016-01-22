@@ -12,3 +12,7 @@ eCryptfs
 The enterprise cryptographic filesystem for Linux
 http://ecryptfs.org/
 
+Transparent Encryption For the User's Home Folder
+Debian wiki 
+Solid instructions for installing ecryptfs on debian 
+https://wiki.debian.org/TransparentEncryptionForHomeFolder
