@@ -1,0 +1,14 @@
+INSTALL
+Created Thu Jan 21 15:38:56 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of eCryptfs on Debian jessie 8.2 amd64
+
+
+
+Links
+=====
+eCryptfs
+The enterprise cryptographic filesystem for Linux
+http://ecryptfs.org/
