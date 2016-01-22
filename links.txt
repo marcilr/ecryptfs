@@ -8,6 +8,9 @@ eCryptfs related links
 
 Links
 =====
+eCryptfs - Official Ubuntu Documentation
+https://help.ubuntu.com/lts/serverguide/ecryptfs.html
+
 eCryptfs - The enterprise cryptographic filesystem for Linux
 http://ecryptfs.org/
 
