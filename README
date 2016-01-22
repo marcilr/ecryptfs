@@ -1,0 +1,16 @@
+README
+Created Thu Jan 21 15:31:28 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+ecryptfs.txt
+  eCryptfs - The enterprise cryptographic filesystem for Linux
+  http://ecryptfs.org/
+
+links.txt
+  eCryptfs related links
+
+syntax
+  Syntax for eCryptfs
