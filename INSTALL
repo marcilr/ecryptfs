@@ -6,9 +6,51 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 Installation of eCryptfs on Debian jessie 8.2 amd64
 
 
+1. Install the ecryptfs-utils package:
+# aptitude install ecryptfs-utils
+The following NEW packages will be installed:
+  ecryptfs-utils libecryptfs0{a} libtspi1{a} 
+0 packages upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 307 kB of archives. After unpacking 1,048 kB will be used.
+Do you want to continue? [Y/n/?] Y
+...
+Preparing to unpack .../libecryptfs0_103-5+deb8u1_amd64.deb ...
+Unpacking libecryptfs0 (103-5+deb8u1) ...
+Selecting previously unselected package libtspi1.
+Preparing to unpack .../libtspi1_0.3.13-3_amd64.deb ...
+Unpacking libtspi1 (0.3.13-3) ...
+Selecting previously unselected package ecryptfs-utils.
+Preparing to unpack .../ecryptfs-utils_103-5+deb8u1_amd64.deb ...
+Unpacking ecryptfs-utils (103-5+deb8u1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up libecryptfs0 (103-5+deb8u1) ...
+Setting up libtspi1 (0.3.13-3) ...
+Setting up ecryptfs-utils (103-5+deb8u1) ...
+Processing triggers for libc-bin (2.19-18+deb8u1) ...
+                                         
+#
+
+2. Load the cryptfs kernel module:
+# modprobe ecryptfs
+
+$ lsmod | grep ecryptfs
+ecryptfs               89223  0 
+$ 
+
+3. Add ecryptfs to /etc/modules-load.d/modules.conf to load permanently:
+
+/etc/modules-load.d/modules.conf
+...
+ecryptfs
+
 
 Links
 =====
 eCryptfs
 The enterprise cryptographic filesystem for Linux
 http://ecryptfs.org/
+
+Transparent Encryption For the User's Home Folder
+Debian wiki
+Solid instructions for installing ecryptfs on debian
+https://wiki.debian.org/TransparentEncryptionForHomeFolder
