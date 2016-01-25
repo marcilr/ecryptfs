@@ -12,6 +12,9 @@ eCryptfs - archlinux
 Good section Auto-mounting and pam.
 https://wiki.archlinux.org/index.php/ECryptfs
 
+eCryptfs - FAQ
+http://ksouedu.com/doc/ecryptfs-utils/ecryptfs-faq.html
+
 eCryptfs - Official Ubuntu Documentation
 https://help.ubuntu.com/lts/serverguide/ecryptfs.html
 
