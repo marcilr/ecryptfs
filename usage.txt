@@ -1,0 +1,38 @@
+usage.txt
+Created Mon Jan 25 09:41:04 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Usage
+
+
+1. Very ecryptsfs module is loaded:
+$ lsmod | grep ecryptfs
+ecryptfs               89223  0 
+$ 
+
+If not add ecryptfs to /etc/modules
+
+2. Create /etc/fstab entry:
+/home/username/.secret /home/username/secret ecryptfs \
+noauto,user,ecryptfs_fnek_sig=7c5d3dd8a1b49db0,\
+ecryptfs_sig=7c5d3dd8a1b49db0,ecryptfs_cipher=aes,\
+ecryptfs_key_bytes=32,ecryptfs_unlink_sigs 0 0
+
+Some options to note:
+o /home/username/.secret has encrypted data.
+o /home/username/secret has decrypted data.
+o The ecryptfs_fnek_sig option will be only listed if you enabled filename
+  encryption
+o The second last option ecryptfs_unlink_sigs ensures that the keyring is
+  cleared every time the directory is un-mounted
+o The bold options have been added:
+o The user option enables to mount the directory as a user
+o The noauto option is important, because otherwise systemd will error trying
+  to mount the entry directly on boot.
+o The user mount will default to option noexec.  If you want to have at least
+  executable files in your private directory, you can add exec to the fstab
+  options.
+o The setup is now complete and directory should be mountable by the user.
+
+-- wiki.archlinux.org/index.php/ECryptfs
