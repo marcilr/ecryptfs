@@ -8,8 +8,8 @@ eCryptfs related links
 
 Links
 =====
-eCryptfs
-archlinux
+eCryptfs - archlinux
+Good section Auto-mounting and pam.
 https://wiki.archlinux.org/index.php/ECryptfs
 
 eCryptfs - Official Ubuntu Documentation
