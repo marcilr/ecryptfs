@@ -8,6 +8,10 @@ eCryptfs related links
 
 Links
 =====
+eCryptfs
+archlinux
+https://wiki.archlinux.org/index.php/ECryptfs
+
 eCryptfs - Official Ubuntu Documentation
 https://help.ubuntu.com/lts/serverguide/ecryptfs.html
 
