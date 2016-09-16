@@ -1,0 +1,25 @@
+links.txt
+Created Thu Jan 21 15:30:55 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+eCryptfs related links
+
+
+Links
+=====
+eCryptfs - archlinux
+Good section Auto-mounting and pam.
+https://wiki.archlinux.org/index.php/ECryptfs
+
+eCryptfs - FAQ
+http://ksouedu.com/doc/ecryptfs-utils/ecryptfs-faq.html
+
+eCryptfs - Official Ubuntu Documentation
+https://help.ubuntu.com/lts/serverguide/ecryptfs.html
+
+eCryptfs - The enterprise cryptographic filesystem for Linux
+http://ecryptfs.org/
+
+How to Encrypt Directories/Partitions with eCryptfs on Debian 8 (Jessie)
+https://www.howtoforge.com/tutorial/how-to-encrypt-directories-and-partitions-with-ecryptfs-on-debian/

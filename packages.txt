@@ -1,0 +1,16 @@
+packages.txt
+Created Thu Jan 21 15:43:14 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+eCryptfs related packages
+
+
+Packages
+========
+ecryptfs-utils - ecryptfs cryptographic filesystem (utilities)
+ecryptfs-utils-dbg - ecryptfs cryptographic filesystem (utilities; debug)
+libecryptfs-dev - ecryptfs cryptographic filesystem (development)
+libecryptfs0 - ecryptfs cryptographic filesystem (library)
+python-ecryptfs - ecryptfs cryptographic filesystem (python)
+
